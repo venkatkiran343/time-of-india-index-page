@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@500&family=Rubik&family=Work+Sans:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #be2819;
+}
+
+ul div{
+    display: flex;
+    color: white;
+}
+
+header label{
+    display: grid;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: #000000;
+    padding: 0 0 15px 0;
+}
+
+ul h5{
+    padding: 5px;
+}
+
+ul h5:hover{
+    background-color: white;
+    color: black;
+}
+
+p{
+    font-size: small;
+    padding: 7px 0 10px 0;
+}
+
+.latest-news label{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    width: 155% !important;
+    display:table;
+    clear:both;
+}
+
+i{
+    padding-right: 230px;
+}
+
+.news{
+    display: flex;
+    border-bottom: 1px solid #bababa;
+    width: 100% !important;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.news a p{
+    font-size: large;
+    font-weight: 600;
+}
+
+.latest-news img{
+    width: 140px;
+    padding: 10px 10px 10px 0;
+}
+
+section{
+    float: left;
+    width: 53%;
+}
+
+.left{
+    padding-left: 260px;
+}
+
+.right{
+    float: right;
+    padding: 50px 255px 0 20px;
+    margin-left: 15px;
+    width: 300px;
+    
+}
+
+.most-popular ul{
+    background-color: #bababa;
+    border-bottom: 3px solid black;
+    margin-top: 10px;
+    color: white;
+}
+
+.most-popular ul h5:hover{
+    background-color: black;
+    color: white;
+}
+
+.most-popular label{
+    font-weight:bolder;
+    margin-top: 12px;
+    display:table;
+    clear:both;
+}
+
+.entertainment-news label, .business-news label{
+    font-size: large;
+    font-weight:bolder;
+    margin: 12px 0 10px 0;
+    display:table;
+    clear:both;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    width: 100% !important;
+}
+
+.entertainment-news img{
+    width: 100px;
+    padding: 6px;
+}
+
+.entertainment-news .news p,.business-news .news p{
+    font-weight: normal;
+    font-size: small;
+}
+
+
+
+.business-news img{
+    width: 110px;
+    padding: 10px 10px 10px 0;
+}
+
+
+
